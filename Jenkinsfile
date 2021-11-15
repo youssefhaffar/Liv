@@ -7,7 +7,7 @@ pipeline
      script{
       checkout([$class: 'GitSCM' , branches: [[name: '*/master']],
        userRemoteConfigs: [[
-        credentialsId: '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',
+        credentialsId: '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',
         url: 'https://github.com/youssefhaffar/Liv.git']]])
             }
           }
