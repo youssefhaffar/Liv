@@ -2,9 +2,9 @@ pipeline
 {
  agent any
   stages{
-   stage('pull'){
+   stage('Pull'){
     steps{
-     scripts{
+     script{
       checkout([$class: 'GitSCM' , branches: [[name: '*/master']],
        userRemoteConfigs: [[
         credentialsId: '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',
