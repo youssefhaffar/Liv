@@ -4,7 +4,7 @@
 - name: Log into DockerHub
   docker_login:
     username: youssefhaffar
-    password: pkhklhlh21?!
+    password: pkhklhlh21!?
     email: mohamedyoussef.haffar@esprit.tn
 - name: Push to docker hub
   docker_image:
